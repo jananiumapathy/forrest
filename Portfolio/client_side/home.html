@@ -1,0 +1,40 @@
+<html>
+    <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <Title>Login Form</Title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"></script>
+    </head>
+     
+    <body>
+    <form id="home">
+            <div class="login-box">
+                <h1>Login</h1>
+                <div class="textbox">
+                    <input id="username" type="text" placeholder="Username" name="" value="">
+                </div>
+                <div class="textbox">
+                    <input id="password" type="password" placeholder="Password" name="" value="">
+                </div> 
+                    <input class="btn" type="submit" name="log" value="LOGIN">
+                    <input class="btn1" type="button" name="" value="CLICK TO REGISTER" onclick="location.href='register.html'" >
+            </div>
+        <div class="text">
+       <b>Forgot Password? Click <a href="">here</a></b>
+        </div>
+    </form>
+           <script>
+                $("#home").submit(function(e){
+                   var username = document.getElementById("username").value;
+                   var password = document.getElementById("password").value;
+                      console.log(username)
+                      console.log(password)
+                   return false
+                })
+           </script>
+     </body>
+</html>

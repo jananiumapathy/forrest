@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family:sans-serif;
+    background:url(picture2.png) no-repeat;
+    background-size: cover;
+}
+.textbox{
+    padding-top:120px;
+    padding-right:200px;
+}
+input[type="text"] {
+    height: 30px;
+    width: 25%;
+    }
+ .details
+ {
+     color:white;
+     padding-left:435px;
+ }
+ .details h3{
+    border-bottom: 4px solid #db9e2d;
+    padding:8px 0;
+    margin: 8px 0;
+    margin-right:175px;
+ }
+ .download
+ {
+    padding-top:10px;
+    padding-right:200px;
+    padding-left:500px;
+ }
+ .share
+ {
+    padding-top:10px;
+    padding-right:200px;
+    padding-left:500px;
+ }
+ .butt
+ {
+    height:40px;
+    width:200px;
+    margin: 8px 0;
+    background-color: rgb(59, 60, 61); 
+    font-family:sans-serif;
+    color: whitesmoke; 
+     border: 2px solid #db9e2d;
+ }
+ .butt:hover {
+    background-color: #db9e2d;
+    color: white;
+} 
+.butt1
+ {
+    height:40px;
+    width:200px;
+    margin: 8px 0;
+    background-color: rgb(59, 60, 61); 
+    font-family:sans-serif;
+    color: whitesmoke; 
+     border: 2px solid #db9e2d;
+ }
+ .butt1:hover {
+    background-color: #db9e2d;
+    color: white;
+} 
